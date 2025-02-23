@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>test</title>
+      <link href="/2025/02/test/"/>
+      <url>/2025/02/test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>你好</p><pre><code class="highlight mermaid">sequenceDiagram    participant Alice    participant Bob    Alice-&gt;John: Hello John, how are you?    loop Healthcheck        John-&gt;John: Fight against hypochondria    end    Note right of John: Rational thoughts &lt;br/&gt;prevail...    John--&gt;Alice: Great!    John-&gt;Bob: How about you?    Bob--&gt;John: Jolly good!</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>装饰你的shell</title>
+      <link href="/2025/02/%E8%A3%85%E9%A5%B0%E4%BD%A0%E7%9A%84shell/"/>
+      <url>/2025/02/%E8%A3%85%E9%A5%B0%E4%BD%A0%E7%9A%84shell/</url>
+      
+        <content type="html"><![CDATA[<h1 id="装饰你的Shell"><a href="#装饰你的Shell" class="headerlink" title="装饰你的Shell"></a>装饰你的Shell</h1><h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>MacOS的默认shell不太好看，我们安装一个<code>oh-my-zsh</code>对其进行装饰。<br>先在自己的home目录新建一个专门用来放软件的文件夹</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p ~/softwares/omz &amp;&amp; <span class="built_in">cd</span> ~/softwares/omz</span><br></pre></td></tr></table></figure><p>然后，安装<code>oh-my-zsh</code>软件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure><h2 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h2><p>若不喜欢默认的主题，可以在<code>.zshrc</code>文件中修改<code>oh-my-zsh</code>的主题。<br>修改主题就是修改<code>ZSH_THEME</code>这个参数。<code>re5et</code>主题是<a href="https://blognas.hwb0307.com/linux/linux-basic/399">Bensz</a>觉得喜欢，我也觉得很不错的主题。你可以自己去<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">github</a>上看看喜欢哪款主题。</p><h2 id="更新软件"><a href="#更新软件" class="headerlink" title="更新软件"></a>更新软件</h2><p>需要更新<code>oh-my-zsh</code>时，输入如下命令进行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">omz update</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>金线原理</title>
+      <link href="/2025/02/%E9%87%91%E7%BA%BF%E5%8E%9F%E7%90%86/"/>
+      <url>/2025/02/%E9%87%91%E7%BA%BF%E5%8E%9F%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何成事"><a href="#如何成事" class="headerlink" title="如何成事"></a>如何成事</h2><p>修炼成事有四个常规途径：读书、行路、学徒、做事。读万卷书，行万里路，跟定两三个师父，不间断地在实际做事中锻炼自己。<br>行路之外，《了不起》指导读书，《金线》给出工具，《冯唐成事心法》指导做事，三根支柱，撑起成事学。</p><p>成事最重要的基础是结构化想事和说事的金线原理。</p><p>成事，多成事，持续多成事，最重要的不是干，而是在干之前，先花时间，想清楚，说明白，然后才是具体落实。</p><h2 id="成事学四大公里"><a href="#成事学四大公里" class="headerlink" title="成事学四大公里"></a>成事学四大公里</h2><p><strong>成事学第一公理</strong>：人类在任何时候都要追求资源的最佳利用和效率的最大化。简单的说，就是不浪费。<br><strong>成事学第二公里</strong>：尽管任何事都没有完美解决方案，但是任何事在某个时间范围内一定有最佳解决方案<br><strong>成事学第三公理</strong>：不要恋战，不要试图解决所有问题，全面应用二八原则，近百分之一百的力气，每个”二“达成”八“，百分之百的力气最终达成百分之四百的成果。<br><strong>成事学第四公里</strong>：解决一切问题的实质是追求以假设为驱动，以事实为基础，符合逻辑的真知灼见。</p><h2 id="结构化思维的二十条军规"><a href="#结构化思维的二十条军规" class="headerlink" title="结构化思维的二十条军规"></a>结构化思维的二十条军规</h2><ol><li>假设驱动</li><li>确立常规</li><li>界定问题</li><li>分而治之</li><li>去繁就简</li><li>工作计划</li><li>调查研究</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 在人世间修行 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 成事学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电子封装CPU散热历史</title>
+      <link href="/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/"/>
+      <url>/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="PC散热技术发展史"><a href="#PC散热技术发展史" class="headerlink" title="PC散热技术发展史"></a>PC散热技术发展史</h2><p>随着半导体技术的进步，CPU厂商不断推出晶体管数量更多，运算速度更快的CPU。在CPU性能提升的同时，CPU芯片内部温度也大幅上升。这对于电子元件的可靠性会产生不良的影响。</p><p>在过去的50年里，电子元件的热控制已成为先进热传技术应用的主要方向。在电子产品中不断进化的散热方案，对于确保CPU正常工作不致超温做出了重要贡献。</p><p>自从20世纪50年代的二次世界大战以来，军事与民间对于电子设备的开发与需求量大幅增加，使得工程师与科学家意识到电子元件的热封装与热设计的重要性，从而吸引众多的热传研究学者进行热控制技术的发展，扩展出了许多新的领域，包括强化表面对流换热与大功率管内冷却液通道方面的研究。</p><p>在20世纪60年代到70年代间，电子设备散热技术在其应用范围上，进一步地扩大至浸没冷却、强化流体沸腾、热管、热电制冷片等技术的应用。但受限于技术上的成熟型，一直停留于实验阶段，并未真正应用于工业应用。此现象一直持续到80年代，由于超大规模集成电路（VLSI），才又推动散热技术的研究发展。</p><p>到了20世纪90年代，由于半导体技术的进一步发展，由8英寸晶圆发展至12英寸晶圆，在成本降低的同时，每颗芯片上集成的晶体管数量由数十个增加至数百万个。运行频率也从MHz增加至GHz。而这使得芯片上单位面积的发热量急剧上升，芯片的散热问题成为重要课题&#96;。</p><h2 id="CPU散热装置之发展史"><a href="#CPU散热装置之发展史" class="headerlink" title="CPU散热装置之发展史"></a>CPU散热装置之发展史</h2><p>以Intel CPU为例。</p><p>1980年左右，IBM发展出个人PC。此时机箱内只有63.5W的电源模组（简称PSU，功能是ACDC）配有一颗80风扇，CPU因为功率很小，没有配备风扇。</p><p>1981年的PC XT以及1982年的AT，均维持了同样的设计</p><p>1985年，Intel 80386 CPU热功耗在10W以内，采用了一个简单的铝挤散热片放在CPU芯片上进行散热。</p><p>1989年，Intel 80486 CPU的热功耗达到了20W，此时自然散热变得困难，开始采用散热片+散热风扇。</p><p>1993年，Intel Pentium系列的CPU大幅增加，有些已经达到65W以上，为解决高功耗散热，热管开始引入，散热片朝着高密翅方向发展，开发出了诸如铲齿(skiving fin)、扣fin等散热能力更强的散热器。</p><p>随着散热风扇的噪音增大，人们对散热系统运行噪音提出了要求。PWM温控调速开始引入。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 做人民的传热学家 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 散热史 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2025年第一季度目标</title>
+      <link href="/2025/02/2025%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%E7%9B%AE%E6%A0%87/"/>
+      <url>/2025/02/2025%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%AD%A3%E5%BA%A6%E7%9B%AE%E6%A0%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>学习HTML、CSS、JavaScript</p><h2 id="为什么学这些？"><a href="#为什么学这些？" class="headerlink" title="为什么学这些？"></a>为什么学这些？</h2><p>现代人的生活几乎每天都接触网页，对于如此高频使用的东西，花费一些时间更加深入的了解和掌握，是有必要且值得的。深入分析会发现，HTML+CSS+JavaScript的相关内容和我日常工作中常用的Word在不少方面是相对应的。</p><p>HTML管页面结构。(<em>Word中的版面布局</em>)<br>CSS管页面样式。 (<em>Word中的样式</em>)<br>JavaScript负责交互。 (<em>Word中的VBA？</em>)</p><p>与自己工作中常用的Word一样。<br>Word中也要考虑文章结构（<em>标题、正文、附录</em>）<br>要考虑样式（<em>样式表</em>）<br>要自动化（<em>VBA</em>）</p><p>相当于一份投入，双份收获。</p><h2 id="学习目标"><a href="#学习目标" class="headerlink" title="学习目标"></a>学习目标</h2><ol><li>制作Web幻灯片。<em>用于汇报</em></li><li>Word排版。<em>用于撰写工作文档</em></li><li>制作Web单页应用。<em>用于制作热设计小工具</em></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 在人世间修行 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学习流程搭建</title>
+      <link href="/2025/02/%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E6%90%AD%E5%BB%BA/"/>
+      <url>/2025/02/%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="信息源"><a href="#信息源" class="headerlink" title="信息源"></a>信息源</h2><ol><li>大牛观点及实践（面对面交流&gt;大牛访谈&gt;大牛亲自的写的书籍&gt;别人写的有关大牛书籍）</li><li>自身实践（亲身参与实践&gt;同事实践&gt;同行实践）</li></ol><h2 id="信息管理"><a href="#信息管理" class="headerlink" title="信息管理"></a>信息管理</h2><p>使用DEVONthink </p><h2 id="信息处理"><a href="#信息处理" class="headerlink" title="信息处理"></a>信息处理</h2><p>文档学习：MarginNotes<br>思维整理：TheBrain</p><h2 id="内容输出"><a href="#内容输出" class="headerlink" title="内容输出"></a>内容输出</h2><p>写作：VScode<br>发布：Hexo</p><h2 id="需要自己牢记的"><a href="#需要自己牢记的" class="headerlink" title="需要自己牢记的"></a>需要自己牢记的</h2><p>使用ANKI</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 在人世间修行 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 流程建设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>与AI协同工作</title>
+      <link href="/2025/02/%E4%B8%8EAI%E5%8D%8F%E5%90%8C%E5%B7%A5%E4%BD%9C/"/>
+      <url>/2025/02/%E4%B8%8EAI%E5%8D%8F%E5%90%8C%E5%B7%A5%E4%BD%9C/</url>
+      
+        <content type="html"><![CDATA[<h2 id="为什么要与AI协同工作？"><a href="#为什么要与AI协同工作？" class="headerlink" title="为什么要与AI协同工作？"></a>为什么要与AI协同工作？</h2><p>借助AI，可以更好的成事，多成事，成大事。</p><ol><li>提升工作满意度，减少人的精力和时间消耗<ol><li>可以帮干很多dirty work，让机械重复性工作自动化进行</li></ol></li><li>提高信息获取的效率，降低信息获取的难度<ol><li>原先没人问或懒得问的事情，都可以顺嘴问一下AI，让AI提供初步答案</li><li>无障碍浏览各种外文资料，不限于英文，信息来源变大</li></ol></li></ol><h2 id="AI具体可以帮我做些什么？"><a href="#AI具体可以帮我做些什么？" class="headerlink" title="AI具体可以帮我做些什么？"></a>AI具体可以帮我做些什么？</h2><p>根据AI的技能和专长，将日常工作中适合的任务分解出来给AI做。</p><ol><li>邮件类<ol><li>邮件重要信息摘要（包括邮件正文及附件，尤其是会议纪要）</li><li>转存附件中的文件（尤其是会议纪要）（<em>后续存在一个文件管理问题</em>）</li><li>纪要中如有涉及自己的任务，要添加日历事项（添加前要弹出列表供确认）</li></ol></li><li>即时通讯类<ol><li>企业微信<ol><li>重要信息摘要。</li><li>文件转存（<em>后续存在一个文件管理问题</em>）</li><li>简单问题自动回复（如索要规格书、索要文件等）（<em>做一个FQA？</em>)</li></ol></li><li>手机微信<ol><li>重要信息摘要。</li><li>文件转存（<em>后续存在一个文件管理问题</em>）</li><li>简单问题自动回复（<em>做一个FQA？</em>)</li></ol></li></ol></li><li>文档撰写类。<ol><li>热设计评估</li><li>热设计方案</li><li>热验证方案</li><li>热验证报告</li><li>归档文件（TestLink及PLM上的归档文件）</li></ol></li></ol><h2 id="我该如何更好的与AI协同"><a href="#我该如何更好的与AI协同" class="headerlink" title="我该如何更好的与AI协同"></a>我该如何更好的与AI协同</h2><p>更好的与AI沟通</p><ol><li>掌握AI提示语<ol><li>学习提问的艺术</li></ol></li><li>掌握自动化工具<ol><li>办公软件中的域、宏、VBA</li><li>一门编程语言（我挑选的是JavaScript，更加便于去完成dirty work）</li><li>数据可视化工具（加强沟通效率）</li></ol></li><li>FQA整理<ol><li>在企业微信中、手机微信中、工作中，大家常问我的问题有哪些？</li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 在人世间修行 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

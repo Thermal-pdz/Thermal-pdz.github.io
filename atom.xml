@@ -6,7 +6,7 @@
   <link href="https://pandazhi.site/atom.xml" rel="self"/>
   
   <link href="https://pandazhi.site/"/>
-  <updated>2025-02-16T14:11:57.425Z</updated>
+  <updated>2025-02-23T08:59:43.412Z</updated>
   <id>https://pandazhi.site/</id>
   
   <author>
@@ -17,13 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://pandazhi.site/2025/02/test/"/>
+    <id>https://pandazhi.site/2025/02/test/</id>
+    <published>2025-02-23T08:58:22.000Z</published>
+    <updated>2025-02-23T08:59:43.412Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>你好</p><pre><code class="highlight mermaid">sequenceDiagram    participant Alice    participant Bob    Alice-&gt;John: Hello John, how are you?    loop Healthcheck        John-&gt;John: Fight against hypochondria    end    Note right of John: Rational thoughts &lt;br/&gt;prevail...    John--&gt;Alice: Great!    John-&gt;Bob: How about you?    Bob--&gt;John: Jolly good!</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt;你好&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;highlight mermaid&quot;&gt;sequenceDiagram
+    partic</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>装饰你的shell</title>
+    <link href="https://pandazhi.site/2025/02/%E8%A3%85%E9%A5%B0%E4%BD%A0%E7%9A%84shell/"/>
+    <id>https://pandazhi.site/2025/02/%E8%A3%85%E9%A5%B0%E4%BD%A0%E7%9A%84shell/</id>
+    <published>2025-02-22T02:13:51.000Z</published>
+    <updated>2025-02-22T02:15:34.038Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="装饰你的Shell"><a href="#装饰你的Shell" class="headerlink" title="装饰你的Shell"></a>装饰你的Shell</h1><h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>MacOS的默认shell不太好看，我们安装一个<code>oh-my-zsh</code>对其进行装饰。<br>先在自己的home目录新建一个专门用来放软件的文件夹</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p ~/softwares/omz &amp;&amp; <span class="built_in">cd</span> ~/softwares/omz</span><br></pre></td></tr></table></figure><p>然后，安装<code>oh-my-zsh</code>软件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure><h2 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h2><p>若不喜欢默认的主题，可以在<code>.zshrc</code>文件中修改<code>oh-my-zsh</code>的主题。<br>修改主题就是修改<code>ZSH_THEME</code>这个参数。<code>re5et</code>主题是<a href="https://blognas.hwb0307.com/linux/linux-basic/399">Bensz</a>觉得喜欢，我也觉得很不错的主题。你可以自己去<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">github</a>上看看喜欢哪款主题。</p><h2 id="更新软件"><a href="#更新软件" class="headerlink" title="更新软件"></a>更新软件</h2><p>需要更新<code>oh-my-zsh</code>时，输入如下命令进行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">omz update</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;装饰你的Shell&quot;&gt;&lt;a href=&quot;#装饰你的Shell&quot; class=&quot;headerlink&quot; title=&quot;装饰你的Shell&quot;&gt;&lt;/a&gt;装饰你的Shell&lt;/h1&gt;&lt;h2 id=&quot;安装软件&quot;&gt;&lt;a href=&quot;#安装软件&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>金线原理</title>
     <link href="https://pandazhi.site/2025/02/%E9%87%91%E7%BA%BF%E5%8E%9F%E7%90%86/"/>
     <id>https://pandazhi.site/2025/02/%E9%87%91%E7%BA%BF%E5%8E%9F%E7%90%86/</id>
     <published>2025-02-16T10:38:05.000Z</published>
-    <updated>2025-02-16T14:11:57.425Z</updated>
+    <updated>2025-02-22T13:38:59.470Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="如何成事"><a href="#如何成事" class="headerlink" title="如何成事"></a>如何成事</h2><p>修炼成事有四个常规途径：读书、行路、学徒、做事。读万卷书，行万里路，跟定两三个师父，不间断地在实际做事中锻炼自己。<br>行路之外，《了不起》指导读书，《金线》给出工具，《冯唐成事心法》指导做事，三根支柱，撑起成事学。</p><p>成事最重要的基础是结构化想事和说事的金线原理。</p><p>成事，多成事，持续多成事，最重要的不是干，而是在干之前，先花时间，想清楚，说明白，然后才是具体落实。</p><h2 id="成事学四大公里"><a href="#成事学四大公里" class="headerlink" title="成事学四大公里"></a>成事学四大公里</h2><p><strong>成事学第一公理</strong>：人类在任何时候都要追求资源的最佳利用和效率的最大化。简单的说，就是不浪费。<br><strong>成事学第二公里</strong>：尽管任何事都没有完美解决方案，但是任何事在某个时间范围内一定有最佳解决方案<br><strong>成事学第三公理</strong>：不要恋战，不要试图解决所有问题，全面应用二八原则，近百分之一百的力气，每个”二“达成”八“，百分之百的力气最终达成百分之四百的成果。<br><strong>成事学第四公里</strong>：解决一切问题的实质是追求以假设为驱动，以事实为基础，符合逻辑的真知灼见。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="如何成事"><a href="#如何成事" class="headerlink" title="如何成事"></a>如何成事</h2><p>修炼成事有四个常规途径：读书、行路、学徒、做事。读万卷书，行万里路，跟定两三个师父，不间断地在实际做事中锻炼自己。<br>行路之外，《了不起》指导读书，《金线》给出工具，《冯唐成事心法》指导做事，三根支柱，撑起成事学。</p><p>成事最重要的基础是结构化想事和说事的金线原理。</p><p>成事，多成事，持续多成事，最重要的不是干，而是在干之前，先花时间，想清楚，说明白，然后才是具体落实。</p><h2 id="成事学四大公里"><a href="#成事学四大公里" class="headerlink" title="成事学四大公里"></a>成事学四大公里</h2><p><strong>成事学第一公理</strong>：人类在任何时候都要追求资源的最佳利用和效率的最大化。简单的说，就是不浪费。<br><strong>成事学第二公里</strong>：尽管任何事都没有完美解决方案，但是任何事在某个时间范围内一定有最佳解决方案<br><strong>成事学第三公理</strong>：不要恋战，不要试图解决所有问题，全面应用二八原则，近百分之一百的力气，每个”二“达成”八“，百分之百的力气最终达成百分之四百的成果。<br><strong>成事学第四公里</strong>：解决一切问题的实质是追求以假设为驱动，以事实为基础，符合逻辑的真知灼见。</p><h2 id="结构化思维的二十条军规"><a href="#结构化思维的二十条军规" class="headerlink" title="结构化思维的二十条军规"></a>结构化思维的二十条军规</h2><ol><li>假设驱动</li><li>确立常规</li><li>界定问题</li><li>分而治之</li><li>去繁就简</li><li>工作计划</li><li>调查研究</li></ol>]]></content>
     
     
       
@@ -42,10 +84,10 @@
   
   <entry>
     <title>电子封装CPU散热历史</title>
-    <link href="https://pandazhi.site/2025/02/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/"/>
-    <id>https://pandazhi.site/2025/02/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/</id>
+    <link href="https://pandazhi.site/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/"/>
+    <id>https://pandazhi.site/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/</id>
     <published>2025-02-09T08:14:14.000Z</published>
-    <updated>2025-02-09T08:18:49.090Z</updated>
+    <updated>2025-02-22T02:10:30.438Z</updated>
     
     <content type="html"><![CDATA[<h2 id="PC散热技术发展史"><a href="#PC散热技术发展史" class="headerlink" title="PC散热技术发展史"></a>PC散热技术发展史</h2><p>随着半导体技术的进步，CPU厂商不断推出晶体管数量更多，运算速度更快的CPU。在CPU性能提升的同时，CPU芯片内部温度也大幅上升。这对于电子元件的可靠性会产生不良的影响。</p><p>在过去的50年里，电子元件的热控制已成为先进热传技术应用的主要方向。在电子产品中不断进化的散热方案，对于确保CPU正常工作不致超温做出了重要贡献。</p><p>自从20世纪50年代的二次世界大战以来，军事与民间对于电子设备的开发与需求量大幅增加，使得工程师与科学家意识到电子元件的热封装与热设计的重要性，从而吸引众多的热传研究学者进行热控制技术的发展，扩展出了许多新的领域，包括强化表面对流换热与大功率管内冷却液通道方面的研究。</p><p>在20世纪60年代到70年代间，电子设备散热技术在其应用范围上，进一步地扩大至浸没冷却、强化流体沸腾、热管、热电制冷片等技术的应用。但受限于技术上的成熟型，一直停留于实验阶段，并未真正应用于工业应用。此现象一直持续到80年代，由于超大规模集成电路（VLSI），才又推动散热技术的研究发展。</p><p>到了20世纪90年代，由于半导体技术的进一步发展，由8英寸晶圆发展至12英寸晶圆，在成本降低的同时，每颗芯片上集成的晶体管数量由数十个增加至数百万个。运行频率也从MHz增加至GHz。而这使得芯片上单位面积的发热量急剧上升，芯片的散热问题成为重要课题&#96;。</p><h2 id="CPU散热装置之发展史"><a href="#CPU散热装置之发展史" class="headerlink" title="CPU散热装置之发展史"></a>CPU散热装置之发展史</h2><p>以Intel CPU为例。</p><p>1980年左右，IBM发展出个人PC。此时机箱内只有63.5W的电源模组（简称PSU，功能是ACDC）配有一颗80风扇，CPU因为功率很小，没有配备风扇。</p><p>1981年的PC XT以及1982年的AT，均维持了同样的设计</p><p>1985年，Intel 80386 CPU热功耗在10W以内，采用了一个简单的铝挤散热片放在CPU芯片上进行散热。</p><p>1989年，Intel 80486 CPU的热功耗达到了20W，此时自然散热变得困难，开始采用散热片+散热风扇。</p><p>1993年，Intel Pentium系列的CPU大幅增加，有些已经达到65W以上，为解决高功耗散热，热管开始引入，散热片朝着高密翅方向发展，开发出了诸如铲齿(skiving fin)、扣fin等散热能力更强的散热器。</p><p>随着散热风扇的噪音增大，人们对散热系统运行噪音提出了要求。PWM温控调速开始引入。</p>]]></content>
     
