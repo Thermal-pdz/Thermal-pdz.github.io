@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>test</title>
-      <link href="/2025/02/test/"/>
-      <url>/2025/02/test/</url>
-      
-        <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>你好</p><pre><code class="highlight mermaid">sequenceDiagram    participant Alice    participant Bob    Alice-&gt;John: Hello John, how are you?    loop Healthcheck        John-&gt;John: Fight against hypochondria    end    Note right of John: Rational thoughts &lt;br/&gt;prevail...    John--&gt;Alice: Great!    John-&gt;Bob: How about you?    Bob--&gt;John: Jolly good!</code></pre>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>装饰你的shell</title>
       <link href="/2025/02/%E8%A3%85%E9%A5%B0%E4%BD%A0%E7%9A%84shell/"/>
       <url>/2025/02/%E8%A3%85%E9%A5%B0%E4%BD%A0%E7%9A%84shell/</url>
