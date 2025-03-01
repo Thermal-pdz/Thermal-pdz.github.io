@@ -6,7 +6,7 @@
   <link href="https://pandazhi.site/atom.xml" rel="self"/>
   
   <link href="https://pandazhi.site/"/>
-  <updated>2025-02-22T02:15:34.038Z</updated>
+  <updated>2025-02-28T17:10:56.686Z</updated>
   <id>https://pandazhi.site/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基础热传及热传经验公式应用在电子封装散热之介绍</title>
+    <link href="https://pandazhi.site/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E5%9F%BA%E7%A1%80%E7%83%AD%E4%BC%A0%E5%8F%8A%E7%83%AD%E4%BC%A0%E7%BB%8F%E9%AA%8C%E5%85%AC%E5%BC%8F%E5%BA%94%E7%94%A8%E5%9C%A8%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85%E6%95%A3%E7%83%AD%E4%B9%8B%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://pandazhi.site/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E5%9F%BA%E7%A1%80%E7%83%AD%E4%BC%A0%E5%8F%8A%E7%83%AD%E4%BC%A0%E7%BB%8F%E9%AA%8C%E5%85%AC%E5%BC%8F%E5%BA%94%E7%94%A8%E5%9C%A8%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85%E6%95%A3%E7%83%AD%E4%B9%8B%E4%BB%8B%E7%BB%8D/</id>
+    <published>2025-02-26T14:34:07.000Z</published>
+    <updated>2025-02-28T17:10:56.686Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="热传基本介绍-热传导、热对流以及热辐射"><a href="#热传基本介绍-热传导、热对流以及热辐射" class="headerlink" title="热传基本介绍-热传导、热对流以及热辐射"></a>热传基本介绍-热传导、热对流以及热辐射</h2><p>电子封装散热主要是针对热源之处理的一种工艺，如果热源之热不做移除，则元器件的温度必定增加直至元器件损坏。既是要对热做处理，那么对于热的一些基本热力、热传观念要有认识。本章节只针对基础热传应用在电子封装散热的一些公式及材料性能及材料性能比较表。</p><p>热力学第一定律：$\Delta U&#x3D;Q-W$，当所吸收的净热Q减掉系统对外所做的功W时就是系统内的内能变化量$\Delta U$，如果内能一直增加，则系统（元器件）的温度自然一直增加。因此，了解热的行为才能知道要如何设计一个散热的装置。从微观角度看，分子的运动有3种，一种是分子的移动，就是在某一</p><h2 id="串联热阻与并联热阻之计算"><a href="#串联热阻与并联热阻之计算" class="headerlink" title="串联热阻与并联热阻之计算"></a>串联热阻与并联热阻之计算</h2><h2 id="主要散热热对流模式之建立"><a href="#主要散热热对流模式之建立" class="headerlink" title="主要散热热对流模式之建立"></a>主要散热热对流模式之建立</h2><p> 经验公式<br>    目前还可以增加一些维度，如重量&#x2F;功耗，成本&#x2F;功耗</p><p> 数值计算</p><p> 试验验证</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;热传基本介绍-热传导、热对流以及热辐射&quot;&gt;&lt;a href=&quot;#热传基本介绍-热传导、热对流以及热辐射&quot; class=&quot;headerlink&quot; title=&quot;热传基本介绍-热传导、热对流以及热辐射&quot;&gt;&lt;/a&gt;热传基本介绍-热传导、热对流以及热辐射&lt;/h2&gt;&lt;p&gt;电子</summary>
+      
+    
+    
+    
+    <category term="做人民的传热学家" scheme="https://pandazhi.site/categories/%E5%81%9A%E4%BA%BA%E6%B0%91%E7%9A%84%E4%BC%A0%E7%83%AD%E5%AD%A6%E5%AE%B6/"/>
+    
+    
+    <category term="传热学" scheme="https://pandazhi.site/tags/%E4%BC%A0%E7%83%AD%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>装饰你的shell</title>
@@ -65,7 +89,7 @@
     <link href="https://pandazhi.site/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/"/>
     <id>https://pandazhi.site/2025/02/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9C%AC%E4%B9%A6/%E7%94%B5%E5%AD%90%E5%B0%81%E8%A3%85CPU%E6%95%A3%E7%83%AD%E5%8E%86%E5%8F%B2/</id>
     <published>2025-02-09T08:14:14.000Z</published>
-    <updated>2025-02-22T02:10:30.438Z</updated>
+    <updated>2025-02-26T14:40:26.345Z</updated>
     
     <content type="html"><![CDATA[<h2 id="PC散热技术发展史"><a href="#PC散热技术发展史" class="headerlink" title="PC散热技术发展史"></a>PC散热技术发展史</h2><p>随着半导体技术的进步，CPU厂商不断推出晶体管数量更多，运算速度更快的CPU。在CPU性能提升的同时，CPU芯片内部温度也大幅上升。这对于电子元件的可靠性会产生不良的影响。</p><p>在过去的50年里，电子元件的热控制已成为先进热传技术应用的主要方向。在电子产品中不断进化的散热方案，对于确保CPU正常工作不致超温做出了重要贡献。</p><p>自从20世纪50年代的二次世界大战以来，军事与民间对于电子设备的开发与需求量大幅增加，使得工程师与科学家意识到电子元件的热封装与热设计的重要性，从而吸引众多的热传研究学者进行热控制技术的发展，扩展出了许多新的领域，包括强化表面对流换热与大功率管内冷却液通道方面的研究。</p><p>在20世纪60年代到70年代间，电子设备散热技术在其应用范围上，进一步地扩大至浸没冷却、强化流体沸腾、热管、热电制冷片等技术的应用。但受限于技术上的成熟型，一直停留于实验阶段，并未真正应用于工业应用。此现象一直持续到80年代，由于超大规模集成电路（VLSI），才又推动散热技术的研究发展。</p><p>到了20世纪90年代，由于半导体技术的进一步发展，由8英寸晶圆发展至12英寸晶圆，在成本降低的同时，每颗芯片上集成的晶体管数量由数十个增加至数百万个。运行频率也从MHz增加至GHz。而这使得芯片上单位面积的发热量急剧上升，芯片的散热问题成为重要课题&#96;。</p><h2 id="CPU散热装置之发展史"><a href="#CPU散热装置之发展史" class="headerlink" title="CPU散热装置之发展史"></a>CPU散热装置之发展史</h2><p>以Intel CPU为例。</p><p>1980年左右，IBM发展出个人PC。此时机箱内只有63.5W的电源模组（简称PSU，功能是ACDC）配有一颗80风扇，CPU因为功率很小，没有配备风扇。</p><p>1981年的PC XT以及1982年的AT，均维持了同样的设计</p><p>1985年，Intel 80386 CPU热功耗在10W以内，采用了一个简单的铝挤散热片放在CPU芯片上进行散热。</p><p>1989年，Intel 80486 CPU的热功耗达到了20W，此时自然散热变得困难，开始采用散热片+散热风扇。</p><p>1993年，Intel Pentium系列的CPU大幅增加，有些已经达到65W以上，为解决高功耗散热，热管开始引入，散热片朝着高密翅方向发展，开发出了诸如铲齿(skiving fin)、扣fin等散热能力更强的散热器。</p><p>随着散热风扇的噪音增大，人们对散热系统运行噪音提出了要求。PWM温控调速开始引入。</p>]]></content>
     
